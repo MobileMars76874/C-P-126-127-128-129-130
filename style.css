@@ -1,0 +1,15 @@
+body{
+background-color: cyan;
+text-align: center;
+}
+
+.heading{
+box-shadow: 5px 5px 18px blue;
+}
+
+canvas{
+box-shadow: 5px 5px 18px blue;
+border-style: solid;
+border-width: 3px;
+border-color: white;
+}
