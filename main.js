@@ -10,13 +10,13 @@ score_leftWrist = 0;
 score_rightWrist = 0;
 
 function preload(){
-song_1 = loadSound("Billy Goat Stomp - Joel Cummins.mp3");
-song_2 = loadSound("Falliing in Slow Motion - RKVC.mp3");
+song_1 = loadSound("Seth-Rollins-Burn-It-Down-.mp3");
+song_2 = loadSound("Kevin-Owens-Fight-WWE.mp3");
 }
 
 function setup(){
 canvas = createCanvas(500, 500);
-canvas.centre();
+canvas.center();
 Video = createCapture(VIDEO);
 Video.hide();
 
@@ -41,7 +41,7 @@ circle(left_Wrist_x, left_Wrist_y, 20);
 song_2.stop();
 if(status_1 == "false"){
 song_1.play();
-document.getElementById("song").innerHTML = "Playing -  Billy Goat Stomp";
+document.getElementById("song").innerHTML = "Playing -  Burn It Down";
 }
 }
 if(score_rightWrist > 0.2){
@@ -49,7 +49,7 @@ circle(right_Wrist_x, right_Wrist_y, 20);
 song1.stop();
 if(status_2 == "false"){
 song_2.play();
-document.getElementById("song").innerHTML = "Playing -  Falling in Slow Motion";
+document.getElementById("song").innerHTML = "Playing -  Kevin Owens-fight";
 }
 }
 }
